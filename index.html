@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PROBLEM SOLVING</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- 1) Write the code to access element which is having id as "text" -->
+
+<div id="text"> Element has created by id ..</div>
+
+
+<!-- 2) Write the code to access element which is having tag as "h1" -->
+
+<h1>Heading</h1>
+<button onclick="clickmee()">click me</button>
+<br><br>
+
+<!-- 3) Write the code to access element which is having class as "box" -->
+<div class="box"></div>
+
+<!-- 4) Change the heading from ""Hello"" to ""Hello World"" using DOM functions" -->
+<div id="textchanged">Hello</div>
+<button onclick="clicked()" >submit</button>
+
+
+<!-- 5) Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction".
+    When user clicks on this button, the cards arrangement should be changed to vertical direction. -->
+<div id="boxcontainer">
+<div id="box">  </div>
+<div id="box">  </div>
+<div id="box">  </div>
+</div>
+<button onclick="changedirection()">Change Flex Direction</button>
+   
+
+<!-- 6) Add one style attribute and give text color 
+  as red and id attribute and give the id value as ""heading""
+   in the above given h1 tag using DOM functions" -->
+
+<h1 id="heading">Hello</h1>
+<button onclick="clickme()">change the color</button>
+
+
+<!-- Create an HTML page having content as Hello world and a button named 
+    Replace Text. When user will click on this button page content should be
+     changed to "Welcome to Elevation academy" -->
+
+<div id="textchanging">HELLO WORLD</div>
+<button onclick="replaceme()">Replace Text</button><br><br>
+
+
+<!-- Write code to implement timer clock using JS -- display HH:MM:SS -- 
+    the time should keep updating every second -->
+<div id="timecontainer">
+    <span id="time1">Time</span>
+    <span id="time2"><span>hours</span></span>
+    <span id="time3"><span>mins</span></span>
+    <span id="time4"><span>secs</span></span>
+    <span id="time5"></span>
+</div>
+
+<!-- Create a select drop down for selecting Year 20-21, 21-22 etc.
+     Print the item text selected -->
+ 
+         <select name="text" id="selected" value="">
+             <option value="default">default</option>
+             <option value="2020-21">2020-21</option>
+             <option value="2021-22">2021-22</option>
+             <option value="2022-23">2022-23</option>
+         </select>
+<button onclick="clickmetoo()">submit</button>
+<div id="submitted2"><span>the selected year is :</span><span id="submitted"></span></div>
+
+<script src="./script .js"></script>
+</body>
+</html>
